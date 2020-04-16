@@ -8,6 +8,11 @@ class Building:
     address: string address of building
     stories: number of stories
     
+
+    Methods:
+    construct(): sets date_constructed to datetime.now
+    purchase(buyer): sets owner = buyer
+    printOut(): prints out details of building in a string
     """
     def __init__(self, address, stories):
         self.designer = ""
